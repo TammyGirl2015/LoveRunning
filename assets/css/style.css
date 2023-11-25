@@ -127,7 +127,7 @@ hr {
 
 /* Benefits background image */
 #circle-cover-bg {
-   background: url("../images/reasons-image.webp"); no-repeat top center/ cover;
+   background: url("../images/reasons-image.webp") no-repeat top center/ cover;
    height: 90vw;
    width: 90vw;
    margin-bottom: 20px;
@@ -141,6 +141,14 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Meetup times background image */
+#times {
+    background: url("../images/dublin-city.webp") no-repeat center / cover;
+    /* Handles responsivity without the need for a media query */
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* Final rgbs value sets the opacity so it is semi-transparent */
